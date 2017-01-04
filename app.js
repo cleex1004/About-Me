@@ -34,7 +34,7 @@ else {
 }
 
 //fourth question
-var cat = prompt ('Now that we have concluded that dogs are pretty awesome, I want your opinion about cats. I think they\'re kind of weird. Do you agree with me?').toUpperCase();
+var cat = prompt('Now that we have concluded that dogs are pretty awesome, I want your opinion about cats. I think they\'re kind of weird. Do you agree with me?').toUpperCase();
 
 if (cat === 'YES' || cat === 'Y') {
   alert('Yaas!!! Cats don\'t listen to their hoomans and are in their own little world. Why would you want a creature in your house that doesn\'t respond to you!');
@@ -44,11 +44,11 @@ else {
 }
 
 //fifth question
-var moreGames = prompt ('I\'ve had fun playing with you and I hope you have gotten to know me better. Would you be interested in playing more games with me in the future?');
+var moreGames = prompt ('I\'ve had fun playing with you and I hope you have gotten to know me better. Would you be interested in playing more games with me in the future?').toUpperCase();
 
-if(moreGames === 'YES' || moreGames === 'Y') {
+if (moreGames === 'YES' || moreGames === 'Y') {
   alert('Cool! Let\'s do this again sometime!');
 }
-else{
+else {
   alert('How rude. Good Bye.');
 }
