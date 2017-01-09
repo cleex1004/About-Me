@@ -15,7 +15,7 @@ if (music === 'YES' || music === 'Y') {
   count++;
 }
 else {
-  alert('Sorry, you\'re wrong' + userName + '. I don\'t just like KPOP, I love it.');
+  alert('Sorry, you\'re wrong ' + userName + '. I don\'t just like KPOP, I love it.');
   console.log(music + ', ' + userName + ' does not think I like KPOP.');
 }
 
